@@ -22,7 +22,3 @@ A simple and efficient Task Manager built using *Next.js* and *TypeScript*. This
 -  Frontend: Next.js, TypeScript
 -  Data Storage: localStorage
 
-## Installation / How to Run
-1. Clone the repository:
-   ```bash
-   git clone <your-repo-link>

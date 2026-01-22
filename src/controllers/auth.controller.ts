@@ -2,7 +2,7 @@ import { Request, Response } from "express"
 import bcrypt from "bcrypt"
 import { generateToken } from "../utils/jwt"
 
-const users: any[] = []   // TEMP storage (database baad me)
+const users: any[] = []   
 
 export const register = async (req: Request, res: Response) => {
   const { email, password } = req.body
@@ -26,4 +26,5 @@ export const login = async (req: Request, res: Response) => {
   const token = generateToken({ email })
 
   res.json({ accessToken: token })
+
 }
